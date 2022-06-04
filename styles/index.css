@@ -1,0 +1,176 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #D9D9D9;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.header-container {
+    background-image: url('../img/header/background.jpg');
+    height: 600px;
+}
+
+.header-title {
+    padding-top: 80px;
+    padding-left: 60px;
+}
+
+.working-info {
+    margin: -60px 0 40px 30%;
+}
+
+.working-info-item {
+    background-color: #FFF;
+    margin-left: 20px;
+    padding: 20px 45px;
+    box-shadow: 0 4px 11px 6px rgba(62, 0, 0, 0.25);
+    border-radius: 35px;
+}
+
+.working-info-icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 5px;
+}
+
+.inventory-info {
+    height: 600px;
+    padding: 200px 15% 0;
+    margin-bottom: 50px;
+    background-image: url('../img/inventory-info/background.jpg');
+    background-color: #D9D9D9;
+    color: #FFF;
+}
+
+.inventory-info-header {
+    font-size: 32px;
+    margin-right: 40px;
+}
+
+.inventory-info-items {
+    flex-grow: 1;
+}
+
+.inventory-info-icon {
+    width: 130px;
+    height: 130px;
+    margin: 0 auto 15px;
+}
+
+.inventory-item-text {
+    font-size: 20px;
+    max-width: 60px;
+    margin-left: 20px;
+}
+
+.delivery-info {
+    margin-bottom: 70px;
+    margin-left: 15%;
+}
+
+.delivery-icon {
+    width: 160px;
+    height: 160px;
+    margin-right: 70px;
+}
+
+.delivery-text {
+    max-width: 670px;
+}
+
+.map {
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 1150px) {
+
+    .header-container {
+        height: 400px;
+    }
+
+    .working-info {
+        margin: -60px 0 40px 10%;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .header-container {
+        height: 400px;
+    }
+
+    .working-info {
+        margin: -60px auto 40px;
+    }
+
+    .inventory-info-header {
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+
+    .working-info-item {
+        background-color: #FFF;
+        margin: 0 auto 20px;
+        padding: 10px 35px;
+        max-width: 250px;
+    }
+
+    .working-info-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .inventory-info {
+        height: 500px;
+        padding: 200px 5% 0;
+        margin-bottom: 30px;
+    }
+
+    .inventory-info-icon {
+        width: 70px;
+        height: 70px;
+        margin: 0 auto 15px;
+    }
+
+    .inventory-item-text {
+        font-size: 15px;
+        max-width: 50px;
+        margin-left: 15px;
+    }
+
+    .delivery-info {
+        margin-bottom: 50px;
+        margin-left: 10%;
+    }
+
+    .delivery-icon {
+        width: 100px;
+        height: 100px;
+        margin-right: 70px;
+    }
+}
